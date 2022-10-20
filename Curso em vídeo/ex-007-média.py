@@ -4,7 +4,7 @@ b=float(input('segunda nota '))
 c=float(input( 'Terceira nota '))
 d=float(input('Quarta nota '))
 print('*'*30)
-f= (a+b+c+d)/2
+f= (a+b+c+d)/2 
 print('Á média da suas notas é {}'.format(f))
 
 # Resoluçao da aula 
