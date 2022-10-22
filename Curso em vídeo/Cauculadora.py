@@ -1,3 +1,4 @@
+
 a=int(input('Qual número da cauculadora você quer saber os cauculos '))
 print('='*30)
 print('{} x {} = {}'.format(a, 1,(a*1)))
