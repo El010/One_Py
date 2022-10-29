@@ -1,11 +1,11 @@
 # faça um programa que leia um nome entre quatro alunos e mostre seu resultado
-import random
+from random import shuffle
 
-a= int(input('primeiro nome\n'))
-b= int(input('Segundo nome\n'))
-c= int(input('terceiro nome\n'))
+a= str(input('primeiro nome\n'))
+b= str(input('Segundo nome\n'))
+c= str(input('terceiro nome\n'))
 lista=[a, b, c]
-random.shuffle(lista)
+shuffle(lista)
 print('os nomes adicinados')
 print(lista)
 
