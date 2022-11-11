@@ -1,4 +1,4 @@
-'''crie um progra que leia o nome colpleto de uma pessoa e mostre:
+'''crie um progra que leia o nome completo de uma pessoa e mostre:
 1- O nome com toda as letras maiúsculas 
 2- O nome o nome com todas as letras menusculas
 3- Quantas letras ao todo sem considera os epaços
@@ -20,7 +20,7 @@ first=str(input('Nome completo: ')).strip()# vai puxar o nome e faze a contagens
 print('Analisando seu nome...')
 print('Seu nome de forma maiuscula é {}'.format(first.upper()))
 print('DE forma minuscula é {}'.format(first.lower()))
-print('Seu nome possue {} letras'.format(len(first)- first.count(' ')))# Ele vai ler as linhas e tirar os espaços me dando o valor
+print('Seu nome possue {} letras'.format(len(first) - first.count(' ')))# Ele vai ler as linhas e tirar os espaços me dando o valor
 # Sem os espaços 
 print('Seu primeiro nome tem {} letras'.format(first.find(' '))) # 'Find' vai encontrar o primeiro espaço e tudo que estiver antes do
 # espaço a funçao ira me retornar...
