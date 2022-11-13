@@ -7,7 +7,7 @@ Faça um programa que leia um numero 9999 e mostre na tela cada um dos digitos s
  milhar 
  '''
 numero=int(input('enter a value or numbers: '))
-u = numero // 1 % 10 # recebe o valor divide por 1 e pega o resto
+u = numero // 1 % 10 #  // recebe o valor e, faz a divisão inteira por 1 e tira o modúlo (%) por 10
 d = numero // 10 % 10
 c = numero // 100 % 10
 m = numero // 1000 % 10   
