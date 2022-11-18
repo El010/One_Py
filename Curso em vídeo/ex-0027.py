@@ -5,5 +5,5 @@ ex: ana maria de sousa
 1- ana
 2- sousa  
 '''
-a = str(input('Digite seu nome completo: '))
-b = len(a)
+nome = str(input('Digite seu nome completo: '))
+print('Seu nome separadamente é {}'.format(nome.split()))
