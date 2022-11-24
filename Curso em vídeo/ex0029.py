@@ -7,4 +7,6 @@ am=float(input('A quantos km você está? '))
 if am >= 80:
     print('você utrapassou limite')
     print('valor da multa {:.2f}'.format())
+else:
+    print('tudo certo')
 
